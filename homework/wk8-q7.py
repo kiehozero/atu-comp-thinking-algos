@@ -1,0 +1,1 @@
+# Write an algorithm that, given a number and a power, will compute the result of the number raised to that power. For example 2(3) = 8

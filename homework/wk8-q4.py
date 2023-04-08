@@ -1,0 +1,1 @@
+# Write an algorithm that computers the sum of an array of numbers

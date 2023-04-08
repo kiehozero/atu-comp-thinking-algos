@@ -1,0 +1,1 @@
+# Write an algorithm that checks whether an element occurs in an array, assume unsorted

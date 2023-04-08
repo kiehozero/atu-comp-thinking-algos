@@ -1,0 +1,1 @@
+# Write an algorithm that checks whether a string is a palindrome

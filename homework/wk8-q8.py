@@ -1,0 +1,1 @@
+# Write an algorithm that, given a string and a substring, will compute how many times the substring appears in the string.
