@@ -4,7 +4,7 @@ import time
 setup_code = '''
 import random
 
-random_list = [random.random() for i in range(100000)]
+random_list = [random.random() for i in range(1000)]
 
 '''
 
