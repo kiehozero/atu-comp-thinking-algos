@@ -16,6 +16,10 @@ random_list = [random.random() for i in range(1000)]
 # note the semi-colon to denote a new line, and the use of a copy of the array. Once an array is sorted, it cannot be
 # re-sorted, hence using cope instead of random_list. In the assignment, this sort() function will be replaced with
 # your own implementation of each of the five required sorting algorithms, which you'll have to first write from scratch.
+# also note that we use a copy rather than the original variable, because once a variable is sorted, it cannot be sorted
+# again for the purposes of benchmarking, where you want every algorithm to start from the same starting line. As noted
+# in the 'Sorting Basics' section of https://docs.python.org/3/howto/sorting.html, sort() modifies the list in place, it
+# isn't creating a copy
 t = timeit.Timer('copy=random_list[:]; copy.sort()', setup=setup_code)
 
 # runs 1000 instances of the script, 7 times
